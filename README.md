@@ -9,3 +9,6 @@
 
 ## **Alert dialog** <h2>
 ![](https://github.com/Lekrieg/AndroidApps/blob/master/gifs/AlertDialogTextExample.gif)
+
+## **Calculadora de gorjetas** <h2>
+![](https://github.com/Lekrieg/AndroidApps/blob/master/gifs/CalculadoraGorjeta.gif)

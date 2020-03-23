@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:layout_gravity="center"
+	tools:context=".MainActivity">
+
+	<ImageView
+		android:id="@+id/imageView"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="32dp"
+		android:layout_marginEnd="32dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toTopOf="parent"
+		app:srcCompat="@drawable/gorjeta" />
+
+	<com.google.android.material.textfield.TextInputLayout
+		android:id="@+id/textInputLayout"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="16dp"
+		android:layout_marginEnd="32dp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+		<com.google.android.material.textfield.TextInputEditText
+			android:id="@+id/textInputEditTextTip"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:hint="@string/input_hint"
+			android:imeOptions="actionDone"
+			android:inputType="numberDecimal" />
+	</com.google.android.material.textfield.TextInputLayout>
+
+	<TextView
+		android:id="@+id/textViewPercentage"
+		android:layout_width="70dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="16dp"
+		android:gravity="center"
+		android:text="0%"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+	<SeekBar
+		android:id="@+id/seekBarTipPercentage"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="16dp"
+		android:layout_marginTop="24dp"
+		android:layout_marginEnd="32dp"
+		android:max="100"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@+id/textViewPercentage"
+		app:layout_constraintTop_toBottomOf="@+id/textInputLayout" />
+
+	<TextView
+		android:id="@+id/textView3"
+		android:layout_width="70dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="16dp"
+		android:text="Gorjeta"
+		android:textSize="18sp"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textViewPercentage" />
+
+	<TextView
+		android:id="@+id/textViewTip"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="16dp"
+		android:layout_marginTop="16dp"
+		android:layout_marginEnd="32dp"
+		android:background="#FFEB3B"
+		android:text="R$ 0.00"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@+id/textView3"
+		app:layout_constraintTop_toBottomOf="@+id/textViewPercentage" />
+
+	<TextView
+		android:id="@+id/textViewTotal"
+		android:layout_width="0dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="16dp"
+		android:layout_marginTop="16dp"
+		android:layout_marginEnd="32dp"
+		android:background="#FFEB3B"
+		android:text="R$ 0.00"
+		android:textSize="18sp"
+		app:layout_constraintEnd_toEndOf="parent"
+		app:layout_constraintStart_toEndOf="@+id/textView5"
+		app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+	<TextView
+		android:id="@+id/textView5"
+		android:layout_width="70dp"
+		android:layout_height="wrap_content"
+		android:layout_marginStart="32dp"
+		android:layout_marginTop="16dp"
+		android:text="Total"
+		android:textSize="18sp"
+		android:textStyle="bold"
+		app:layout_constraintStart_toStartOf="parent"
+		app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

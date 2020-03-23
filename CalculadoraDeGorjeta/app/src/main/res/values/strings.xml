@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Calculadora De Gorjeta</string>
+    <string name="input_hint">Digite um valor ex:36.5</string>
+</resources>
