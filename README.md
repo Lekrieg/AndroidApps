@@ -12,3 +12,6 @@
 
 ## **Calculadora de gorjetas** <h2>
 ![](https://github.com/Lekrieg/AndroidApps/blob/master/gifs/CalculadoraGorjeta.gif)
+
+## **Basic anime list** <h2>
+![](https://github.com/Lekrieg/AndroidApps/blob/master/gifs/BasicAnimeList.gif)
