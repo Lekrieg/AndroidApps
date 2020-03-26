@@ -64,8 +64,8 @@ public class MainActivity extends AppCompatActivity {
 			double totalBill = payment + tip;
 
 			// Modificar depois para uma funcao separada
-			textViewTip.setText("R$ " + tip);
-			textViewTotal.setText("R$ " + totalBill);
+			textViewTip.setText("R$ " + String.format("%.2f", tip));
+			textViewTotal.setText("R$ " + String.format("%.2f", totalBill));
 		}
 		else
 		{
