@@ -15,3 +15,6 @@
 
 ## **Basic anime list** <h2>
 ![](https://github.com/Lekrieg/AndroidApps/blob/master/gifs/BasicAnimeList.gif)
+
+## **Fragment example** <h2>
+![](https://github.com/Lekrieg/AndroidApps/blob/master/gifs/FragmentExample.gif)
