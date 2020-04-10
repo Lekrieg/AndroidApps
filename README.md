@@ -18,3 +18,6 @@
 
 ## **Fragment example** <h2>
 ![](https://github.com/Lekrieg/AndroidApps/blob/master/gifs/FragmentExample.gif)
+
+## **Otaku Extreme prototype 01** <h2>
+![](https://github.com/Lekrieg/AndroidApps/blob/master/gifs/OtakuExtreme_prototype01.gif)
