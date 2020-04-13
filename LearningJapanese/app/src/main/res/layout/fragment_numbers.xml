@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimary"
+	tools:context=".Fragments.NumbersFragment">
+
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/guideline5"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		app:layout_constraintGuide_percent="0.13" />
+
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/guideline6"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		app:layout_constraintGuide_percent="0.83" />
+
+	<ImageButton
+		android:id="@+id/imageButtonNumberOne"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_number_one"
+		app:layout_constraintStart_toStartOf="@+id/guideline5"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageButton
+		android:id="@+id/imageButtonNumberTwo"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_number_two"
+		app:layout_constraintEnd_toStartOf="@+id/guideline6"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageButton
+		android:id="@+id/imageButtonNumberThree"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_number_three"
+		app:layout_constraintStart_toStartOf="@+id/guideline5"
+		app:layout_constraintTop_toBottomOf="@+id/imageButtonNumberOne" />
+
+	<ImageButton
+		android:id="@+id/imageButtonNumberFour"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_number_four"
+		app:layout_constraintEnd_toStartOf="@+id/guideline6"
+		app:layout_constraintTop_toBottomOf="@+id/imageButtonNumberTwo" />
+
+	<ImageButton
+		android:id="@+id/imageButtonNumberFive"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_number_five"
+		app:layout_constraintStart_toStartOf="@+id/guideline5"
+		app:layout_constraintTop_toBottomOf="@+id/imageButtonNumberThree" />
+
+	<ImageButton
+		android:id="@+id/imageButtonNumberSix"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_number_six"
+		app:layout_constraintEnd_toStartOf="@+id/guideline6"
+		app:layout_constraintTop_toBottomOf="@+id/imageButtonNumberFour" />
+</androidx.constraintlayout.widget.ConstraintLayout>

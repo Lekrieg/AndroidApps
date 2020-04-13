@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimary"
+	tools:context=".Fragments.ItemsFragment">
+
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/guideline3"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		app:layout_constraintGuide_percent="0.13" />
+
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/guideline4"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		app:layout_constraintGuide_percent="0.87" />
+
+	<ImageButton
+		android:id="@+id/imageButtonItemChair"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_item_chair"
+		app:layout_constraintStart_toStartOf="@+id/guideline3"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageButton
+		android:id="@+id/imageButtonItemNotebook"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_item_notebook"
+		app:layout_constraintEnd_toStartOf="@+id/guideline4"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageButton
+		android:id="@+id/imageButtonItemPen"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_item_pen"
+		app:layout_constraintStart_toStartOf="@+id/guideline3"
+		app:layout_constraintTop_toBottomOf="@+id/imageButtonItemChair" />
+
+	<ImageButton
+		android:id="@+id/imageButtonItemSchoolbag"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_item_schoolbag"
+		app:layout_constraintEnd_toStartOf="@+id/guideline4"
+		app:layout_constraintTop_toBottomOf="@+id/imageButtonItemNotebook" />
+
+	<ImageButton
+		android:id="@+id/imageButtonItemShoes"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_item_shoes"
+		app:layout_constraintStart_toStartOf="@+id/guideline3"
+		app:layout_constraintTop_toBottomOf="@+id/imageButtonItemPen" />
+
+	<ImageButton
+		android:id="@+id/imageButtonItemSock"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_item_sock"
+		app:layout_constraintEnd_toStartOf="@+id/guideline4"
+		app:layout_constraintTop_toBottomOf="@+id/imageButtonItemSchoolbag" />
+</androidx.constraintlayout.widget.ConstraintLayout>

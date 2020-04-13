@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:app="http://schemas.android.com/apk/res-auto"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+	android:layout_height="match_parent"
+	android:background="@color/colorPrimary"
+	tools:context=".Fragments.AnimalsFragment">
+
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/guideline"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		app:layout_constraintGuide_percent="0.13" />
+
+	<androidx.constraintlayout.widget.Guideline
+		android:id="@+id/guideline2"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:orientation="vertical"
+		app:layout_constraintGuide_percent="0.87" />
+
+	<ImageButton
+		android:id="@+id/imageButtonAnimalCat"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_animal_cat"
+		app:layout_constraintStart_toStartOf="@+id/guideline"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageButton
+		android:id="@+id/imageButtonAnimalCow"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_animal_cow"
+		app:layout_constraintEnd_toStartOf="@+id/guideline2"
+		app:layout_constraintTop_toTopOf="parent" />
+
+	<ImageButton
+		android:id="@+id/imageButtonAnimalDog"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_animal_dog"
+		app:layout_constraintStart_toStartOf="@+id/guideline"
+		app:layout_constraintTop_toBottomOf="@+id/imageButtonAnimalCat" />
+
+	<ImageButton
+		android:id="@+id/imageButtonAnimalLion"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_animal_lion"
+		app:layout_constraintEnd_toStartOf="@+id/guideline2"
+		app:layout_constraintTop_toBottomOf="@+id/imageButtonAnimalCow" />
+
+	<ImageButton
+		android:id="@+id/imageButtonAnimalMonkey"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_animal_monkey"
+		app:layout_constraintStart_toStartOf="@+id/guideline"
+		app:layout_constraintTop_toBottomOf="@+id/imageButtonAnimalDog" />
+
+	<ImageButton
+		android:id="@+id/imageButtonAnimalSheep"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="24dp"
+		android:background="@android:color/transparent"
+		android:src="@drawable/image_animal_sheep"
+		app:layout_constraintEnd_toStartOf="@+id/guideline2"
+		app:layout_constraintTop_toBottomOf="@+id/imageButtonAnimalLion" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
