@@ -24,3 +24,5 @@
 
 ## **Learning Japanese** <h2>
 ![](https://github.com/Lekrieg/AndroidApps/blob/master/gifs/LearningJapanese.gif)
+## **Basic Task List** <h2>
+![](https://github.com/Lekrieg/AndroidApps/blob/master/gifs/BasicTaskList.gif)
